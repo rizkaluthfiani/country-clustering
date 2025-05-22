@@ -1,0 +1,29 @@
+Scaling             Best Clusters:         Silhouette Score 
+
+log income          3                      ~ 0.78
+
+
+log_income          3                      0.48 
+log_gdpp
+
+
+
+log_income          4                      0.3
+log_gdpp
+normalization
+
+
+
+log_income          4                      0.329
+normalization
+
+
+
+log_gdpp            2, 3                    0.7; 0.68
+
+
+
+
+
+
+

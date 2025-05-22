@@ -1,0 +1,35 @@
+dataset_filename: country_data.csv
+dataset_dump_path: 
+  raw: data/raw/
+  interim: data/interim/
+  processed: data/processed/
+
+int64_columns:
+- income
+- gdpp
+
+float64_columns:
+- child_mort
+- exports
+- health
+- imports
+- inflation
+- life_expec
+- total_fer
+
+object_columns:
+- country
+
+features:
+- country
+- child_mort
+- exports
+- health
+- imports
+- income
+- inflation
+- life_expec
+- total_fer
+- gdpp
+
+model_dump_path: models/
